@@ -1,0 +1,10 @@
+{
+  "orgName": "Vandelay Industries",
+  "edition": "Developer",
+  "features": ["DevelopmentWave"],
+  "settings": {
+    "orgPreferenceSettings": {
+      "s1DesktopEnabled": true
+    }
+  }
+}
