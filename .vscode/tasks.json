@@ -1,0 +1,26 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Scratch Org setup",
+      "type": "shell",
+      "group": "build",
+      "command": "./scripts/project_setup.sh",
+      "args": ["-d", "${input:durationScratchOrg}", "-e", "${input:email}"]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "durationScratchOrg",
+      "type": "promptString",
+      "description": "Scratch Org duration (days)"
+    },
+    {
+      "id": "email",
+      "type": "promptString",
+      "description": "Email address to use for users being created"
+    }
+  ]
+}
