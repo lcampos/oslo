@@ -1,4 +1,0 @@
-[
-  "{\"nodes\":{\"sfdcDigest_Log__c\":{\"action\":\"sobjectDigest\",\"parameters\":{\"fields\":[{\"name\":\"Type__c\"}],\"object\":\"Log__c\"}},\"register_Logger\":{\"action\":\"register\",\"parameters\":{\"label\":\"Logger\",\"name\":\"Logger\"},\"sources\":[\"sfdcDigest_Log__c\"]}}}",
-  null
-]

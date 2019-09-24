@@ -1,7 +1,6 @@
 {
   "orgName": "Vandelay Industries",
   "edition": "Developer",
-  "features": ["DevelopmentWave"],
   "settings": {
     "languageSettings": {
       "enableTranslationWorkbench": true
