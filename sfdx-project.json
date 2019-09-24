@@ -2,10 +2,18 @@
   "packageDirectories": [
     {
       "path": "force-app",
+      "package": "oslo v2",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "default": true
     }
   ],
-  "namespace": "",
+  "namespace": "sa_test2GP",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "46.0"
+  "sourceApiVersion": "46.0",
+  "packageAliases": {
+    "oslo v2": "0HoB0000000KzEUKA0",
+    "oslo v2@0.1.0-1": "04tB0000000Yg9qIAC",
+    "oslo v2@0.1.0-2": "04tB0000000YgIBIA0"
+  }
 }
